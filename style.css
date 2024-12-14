@@ -1,0 +1,22 @@
+.logos{
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 2px;
+  display: flex;
+  width: 100%;
+}
+
+.logos:hover .logos-slide{
+  animation-play-state: paused;
+}
+
+.logos-slide{
+  display: inline-block;
+  animation: scroll 50s linear infinite;
+}
+
+@keyframes scroll {
+  100% {
+    transform: translateX(calc(-100% /2));
+  }
+}

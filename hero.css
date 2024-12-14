@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-repeat{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/023/230/007/non_2x/fresh-abstract-banner-background-with-photo-frame-free-vector.jpg');
+}
+.bg-mg{
+  background-image: url("../../assets/main12.png");
+}
